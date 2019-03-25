@@ -33,7 +33,7 @@ Here, I observed that dataset2 being the tougher one gave more precise results t
 
 For both datasets a run with only one sensor, `radar` or `lidar` was also measured. 
 
-> You can test this yourself by setting the vars `use_laser_` and `use_radar_` in `src/FusionEKF.cpp`.
+> You can test this yourself by setting the vars `laser_flag` and `radar_flag` in `src/FusionEKF.cpp`.
 
 Here are the results:
 
